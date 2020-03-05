@@ -1,2 +1,5 @@
-# SupervisedLearning_LoanCustomers_py
-Identified potential loan customers for Thera Bank using classification techniques. Compared models built with Logistic Regression and KNN algorithm in order to select the best performing one
+# personalloan_modelling_py
+This is supervised learning problem where we have identified potential loan customers for Thera Bank using classification techniques. Compared models built with Logistic Regression and KNN algorithm in order to select the best performing one based on the confusion matrix, performance matrics and ROC curve.
+KNN algorithm is the best classifer here because bank should be okay if potential customers left unpredicted(negative case) who will not respond to the campaign but should predict the potential customers who will respond to the campaign accurately.  
+KNN model is the better classifer as compare to logistic and naive bayes as it has good recall, high AUC and accuracy that will help to predict the positive customers but still we can improve the sensitivity i.e. not to lose out on potential customers who will respond to the loan campaign then our model will perform much better.
+Actionable Insights: adjusting the classification threshold to achieve better sensitivity :I As concluded in logistic regression model,we are getting better senstivity at low threshold values.
